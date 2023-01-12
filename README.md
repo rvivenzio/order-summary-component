@@ -8,7 +8,7 @@
     </a>
     <span>&nbsp;|&nbsp;</span>
     <!-- Frontend Mentor Live solution -->
-    <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub">
+    <a href="https://www.frontendmentor.io/solutions/order-summary-component-cZJ_qjbSyp">
       Solution
     </a>
     <span>&nbsp;|&nbsp;</span>
