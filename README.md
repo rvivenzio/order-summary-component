@@ -1,9 +1,9 @@
 ![Challenge Design](images/desktop-design.jpg)
 
 <div align="center">
- <h1>NFT preview card component</h1>
+ <h1>Order summary component</h1>
  <h3>
-    <a href="https://radiant-taiyaki-17035e.netlify.app/">
+    <a href="https://stellar-kheer-97b827.netlify.app/">
       Live
     </a>
     <span>&nbsp;|&nbsp;</span>
@@ -63,7 +63,7 @@ The designs were created to the following widths:
 ![](images/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [https://radiant-taiyaki-17035e.netlify.app/](https://radiant-taiyaki-17035e.netlify.app/)
+- Live Site URL: [https://stellar-kheer-97b827.netlify.app/](https://stellar-kheer-97b827.netlify.app/)
 
 ### Built with
 
