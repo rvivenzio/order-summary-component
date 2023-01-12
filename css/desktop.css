@@ -1,0 +1,5 @@
+/* Extra large devices (large laptops and desktops, 820px and up) */
+body {
+    background-image: url('../images/pattern-background-desktop.svg');
+}
+

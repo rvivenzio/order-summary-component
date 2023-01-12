@@ -1,0 +1,166 @@
+:root {
+    
+    /* Tipografía */
+    --principal: 'Red Hat Display', sans-serif;
+    
+    /* Colors */
+    --Pale_blue: hsl(225, 100%, 94%);
+    --Bright_blue: hwb(245 29% 7%);
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+
+    /* Tamaño */
+    --text: 1.6rem;
+    --title: 2.5rem;
+
+  }
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    vertical-align: baseline;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.50%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--principal);
+    min-height: 100vh;
+    background-color: var(--Pale_blue);
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+
+  /* General Card */
+  main.card {
+    margin: auto 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    max-width: 33.5rem;
+    margin: auto;
+  }
+
+  .card__top_image img {
+    width: 100%;
+    display: block;
+  }
+
+  section.card__summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; 
+
+    padding: 2.5rem 4rem;
+  }
+
+  /* 2.1-Title */
+  h1.card__title {
+    font-size: var(--title);
+    color: var(--Dark_blue);
+  }
+
+  p.card__description {
+    color:var(--Desaturated_blue);
+    font-size: var(--text);
+    text-align: center;
+    line-height: 2.4rem;
+  }
+
+  /* 2.2-Plan Cost */
+  .card__plan-purchase {
+    display: flex;
+    background-color: var(--Very_pale_blue);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .8rem;
+    padding: 1rem 0;
+    
+  }
+
+  .card__plan-purchase figure {
+    margin-left: 1rem;
+  }
+
+
+  div.card__plan-description {
+    margin-right: 5rem;
+    line-height: 2rem;
+  } 
+
+  div.card__plan-description h3 {
+    color: var(--Dark_blue);
+    font-weight: 900;
+  }
+
+  div.card__plan-description p {
+    font-size: 1.2rem;
+    color: var(--Desaturated_blue);
+  }
+
+  .card__plan-purchase a {
+    margin-right: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+  }
+
+  .card__plan-purchase a:hover {
+    text-decoration: none;
+  }
+
+
+  /* 2.3 Buttons */
+
+  div.card__buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .card__buttons--proceed {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+    background-color: var(--Bright_blue);
+    color: white;
+    font-weight: 900;
+    font-size: 1.4rem;
+    box-shadow: 0px 10px 20px 0px rgba(42,33,133,0.4);
+    cursor: pointer;
+  }
+
+  .card__buttons--proceed:hover {
+    background-color: rgb(121, 111, 231);
+  }
+
+  .card__buttons--cancel {
+    margin-top: 1.5rem;
+    border: none;
+    background-color:transparent;
+    color: var(--Desaturated_blue);
+    font-weight: 900;
+    font-size: 1.4rem;
+  }
+
+  .card__buttons--cancel:hover {
+    color: var(--Dark_blue);
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    padding-bottom: 1rem;
+  }

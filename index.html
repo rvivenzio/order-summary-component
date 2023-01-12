@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 820px)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+</head>
+<body>
+  <main class="card">
+    <!-- 1 Principal Image -->
+    <figure class="card__top_image">
+      <img src="./images/illustration-hero.svg" alt="illustration hero" title="illustration hero">
+    </figure>
+    <!-- 2 Summary -->
+    <section class="card__summary">
+      <!-- 2.1 Title and description -->
+      <h1 class="card__title">Order Summary</h1>
+      <p class="card__description">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like! 
+      </p>
+      <!-- 2.2 Plan Cost-->
+      <article class="card__plan-purchase">
+        <figure>
+          <img src="./images/icon-music.svg" alt="icon music" title="icon music">
+        </figure>
+        <div class="card__plan-description">
+          <h3>Annual Plan</h3>
+          <p>$59.99/year</p>
+        </div>
+        <a href="#">Change</a>
+      </article>
+      <!-- 2.3 Buttons -->
+      <div class="card__buttons">
+        <input type="button" value="Proceed to Payment" class="card__buttons--proceed">
+        <input type="button" value="Cancel Order" class="card__buttons--cancel">
+      </div>
+    </section>
+  </main>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/rvivenzio" target="_blank">rvivenzio</a>. 
+  </footer>
+</body>
+</html>
